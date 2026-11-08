@@ -1,0 +1,27 @@
+{
+  "name": "default",
+  "kind": "financial_statements",
+  "original_filename": "default.xlsx",
+  "registered_at": "2026-11-05 13:58:10",
+  "builtin": true,
+  "config": {
+    "sheets": {
+      "قائمة المركز المالي": {
+        "statement": "BS",
+        "header_row": 5,
+        "first_row": 6,
+        "label_col": "B",
+        "current_col": "D",
+        "prior_col": "E"
+      },
+      "قائمة الدخل": {
+        "statement": "IS",
+        "header_row": 5,
+        "first_row": 6,
+        "label_col": "B",
+        "current_col": "D",
+        "prior_col": "E"
+      }
+    }
+  }
+}

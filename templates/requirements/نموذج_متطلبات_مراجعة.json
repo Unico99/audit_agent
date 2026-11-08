@@ -1,0 +1,24 @@
+{
+  "name": "نموذج_متطلبات_مراجعة",
+  "kind": "requirements",
+  "original_filename": "المتطلبات.xlsx",
+  "registered_at": "2026-11-05 14:15:23",
+  "builtin": false,
+  "config": {
+    "sheet": "English",
+    "header_row": 3,
+    "first_data_row": 4,
+    "columns": {
+      "A": "skip",
+      "B": "area",
+      "C": "area",
+      "D": "requirement"
+    },
+    "headers": {
+      "A": "Ref",
+      "B": "Section",
+      "C": "Category",
+      "D": "Requirement"
+    }
+  }
+}

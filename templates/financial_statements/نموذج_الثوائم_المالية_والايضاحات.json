@@ -1,0 +1,163 @@
+{
+  "name": "نموذج_الثوائم_المالية_والايضاحات",
+  "kind": "financial_statements",
+  "original_filename": "نموذج للقوائم_المالية.xlsx",
+  "registered_at": "2026-11-05 14:28:53",
+  "builtin": false,
+  "config": {
+    "sheets": {
+      "قائمة المركز المالي": {
+        "statement": "BS",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "قائمة الدخل الشامل": {
+        "statement": "IS",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "قائمة التغيرات في حقوق الملكية": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "قائمة التدفقات النقدية": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "الإيضاحات النصية": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "D",
+        "current_col": "A",
+        "prior_col": ""
+      },
+      "إيضاح 3 - نسب الإهلاك": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": ""
+      },
+      "إيضاح 5 - النقد": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "إيضاح 6 - مدينون تجاريون": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "إيضاح 7 - مصروفات مقدمة": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "إيضاح 8 - أطراف ذات علاقة": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "D"
+      },
+      "إيضاح 9 - ممتلكات ومعدات": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "إيضاح 10 - دائنون تجاريون": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "إيضاح 11 - مصروفات مستحقة": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "إيضاح 12 - الزكاة": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "إيضاح 13 - منافع الموظفين": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "إيضاح 14 - رأس المال": {
+        "statement": "other",
+        "header_row": 9,
+        "first_row": 10,
+        "label_col": "A",
+        "current_col": "C",
+        "prior_col": "D"
+      },
+      "إيضاح 15 - تكلفة الإيرادات": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "إيضاح 16 - مصروفات تسويقية": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      },
+      "إيضاح 17 - مصروفات عمومية": {
+        "statement": "other",
+        "header_row": 0,
+        "first_row": 1,
+        "label_col": "A",
+        "current_col": "B",
+        "prior_col": "C"
+      }
+    }
+  }
+}

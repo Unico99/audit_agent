@@ -1,0 +1,28 @@
+{
+  "_note": "ربط أكواد الحسابات بمجموعات النماذج. أطول بادئة هي اللي بتنطبق. القيمة: مجموعة أو مجموعة:وسم",
+  "prefixes": {
+    "1101": "cash_hand", "1102": "cash_bank",
+    "1201": "ar", "1202": "ar_allow",
+    "1301": "prepaid", "1302": "staff_adv",
+    "14": "due_from_rp",
+    "150": "ppe_cost", "151": "ppe_accdep",
+    "21": "ap", "22": "accrued", "23": "due_to_rp",
+    "24": "zakat_payable", "25": "eosb",
+    "31": "capital", "32": "reserve", "33": "retained",
+    "41": "revenue", "51": "cogs_exp", "61": "mkt_exp",
+    "71": "ga_exp", "7103": "ga_exp:eosb_exp", "7110": "ga_exp:dep_exp", "7116": "ga_exp:bad_debt_exp",
+    "8101": "fx", "8102": "other_income", "91": "zakat_exp"
+  },
+  "parties": {
+    "نواف مطيري": {"relation": "شريك", "nature": "تمويل"},
+    "عياد العتيبي": {"relation": "شريك", "nature": "تمويل"},
+    "سامر الشواف": {"relation": "شريك سابق", "nature": "تمويل"},
+    "شركة سماس": {"relation": "شركة شقيقة", "nature": "سداد مصروفات بالنيابة"},
+    "شركة الامتياز": {"relation": "شركة شقيقة", "nature": "تمويل"},
+    "شركة بيانات": {"relation": "شركة شقيقة", "nature": "سداد مصروفات بالنيابة"},
+    "أبو ستة الأردن": {"relation": "شركة شقيقة", "nature": "سداد مصروفات بالنيابة"},
+    "شركة النوافل": {"relation": "شركة شقيقة", "nature": "تمويل"},
+    "شركة سعود الشواف للمحاماة": {"relation": "شركة شقيقة", "nature": "سداد مصروفات بالنيابة"}
+  },
+  "share_nominal_value": 10
+}

@@ -1,0 +1,7 @@
+[browser]
+# منع إرسال إحصائيات الاستخدام لأي جهة خارجية
+gatherUsageStats = false
+
+[server]
+# الواجهة تتفتح على جهازك بس (localhost). غيّرها بحذر لو هتشاركها على الشبكة.
+address = "localhost"

@@ -1,0 +1,56 @@
+{
+  "_note": "مكتبة بداية من تأليفي (مش نص معيار رسمي). المراجع هنا على مستوى رقم المعيار بس. راجعها وعدّلها حسب نسخك المرخّصة وسياسة مكتبك. تقدر تنسخ الملف لـ standards/requirements_library.json وتعدّل عليه وهو اللي هيتستخدم.",
+  "items": [
+    {"category": "general", "area": "عام", "requirement": "ميزان المراجعة النهائي المعتمد من الإدارة مع الأرصدة المقارنة، ومطابقته بدفتر الأستاذ العام", "evidence": "ميزان مراجعة معتمد + أستاذ عام", "standard": "ISA 500", "priority": "high"},
+    {"category": "general", "area": "عام", "requirement": "القوائم المالية المراجعة للسنة السابقة وتقرير المراجع عنها (الأرصدة الافتتاحية)", "evidence": "قوائم مالية معتمدة للسنة السابقة", "standard": "ISA 510", "priority": "high"},
+    {"category": "general", "area": "عام", "requirement": "فهم الكيان: النظام الأساسي والهيكل التنظيمي والسياسات المحاسبية الهامة ووصف الرقابة الداخلية", "evidence": "عقد التأسيس، هيكل تنظيمي، دليل السياسات", "standard": "ISA 315", "priority": "high"},
+    {"category": "general", "area": "عام", "requirement": "قائمة بالأطراف ذات العلاقة وأرصدتها ومعاملاتها خلال الفترة", "evidence": "قائمة موقعة من الإدارة", "standard": "ISA 550", "priority": "high"},
+    {"category": "general", "area": "عام", "requirement": "قائمة بالقضايا والمطالبات القانونية القائمة وخطابات المحامين", "evidence": "قائمة القضايا + مصادقات المحامين", "standard": "ISA 501", "priority": "medium"},
+    {"category": "general", "area": "عام", "requirement": "محاضر اجتماعات مجلس الإدارة والجمعية العامة وأي قرارات مؤثرة على القوائم", "evidence": "محاضر الاجتماعات", "standard": "ISA 500", "priority": "medium"},
+    {"category": "general", "area": "عام", "requirement": "الأحداث اللاحقة لتاريخ القوائم: أي أحداث جوهرية أو تسويات بعد نهاية الفترة", "evidence": "إفادة الإدارة + مستندات ما بعد الفترة", "standard": "ISA 560", "priority": "medium"},
+    {"category": "general", "area": "عام", "requirement": "تقييم الإدارة لمبدأ الاستمرارية وخطط التشغيل والتدفقات النقدية المتوقعة", "evidence": "موازنات وتدفقات نقدية متوقعة", "standard": "ISA 570", "priority": "medium"},
+    {"category": "general", "area": "عام", "requirement": "قيود اليومية اليدوية والتسويات الجوهرية قرب نهاية الفترة مع مستنداتها", "evidence": "كشف قيود يدوية + مستندات", "standard": "ISA 240", "priority": "medium"},
+    {"category": "general", "area": "عام", "requirement": "خطاب الإقرارات المكتوبة من الإدارة", "evidence": "خطاب إقرارات موقّع", "standard": "ISA 580", "priority": "high"},
+
+    {"category": "cash", "area": "النقدية والبنوك", "requirement": "كشوف حساب البنوك في نهاية الفترة ومذكرات التسوية البنكية لكل حساب ({accounts})", "evidence": "كشوف بنكية + مذكرات تسوية", "standard": "ISA 505", "priority": "high"},
+    {"category": "cash", "area": "النقدية والبنوك", "requirement": "طلب مصادقات من البنوك على الأرصدة والتسهيلات والضمانات", "evidence": "مصادقات بنكية", "standard": "ISA 505", "priority": "high"},
+    {"category": "cash", "area": "النقدية والبنوك", "requirement": "محضر جرد الخزينة في تاريخ القوائم وسجل حركة الخزينة", "evidence": "محضر جرد + سجل خزينة", "standard": "ISA 500", "priority": "medium"},
+
+    {"category": "receivables", "area": "العملاء والمدينون", "requirement": "كشف أعمار ديون العملاء مطابق للأستاذ المساعد (الرصيد حوالي {balance})", "evidence": "كشف أعمار + أستاذ مساعد", "standard": "ISA 500", "priority": "high"},
+    {"category": "receivables", "area": "العملاء والمدينون", "requirement": "مصادقات العملاء على أرصدة مختارة، والإجراءات البديلة للردود غير المستلمة", "evidence": "مصادقات أو مستندات بديلة", "standard": "ISA 505", "priority": "high"},
+    {"category": "receivables", "area": "العملاء والمدينون", "requirement": "تحليل المخصصات والخسائر الائتمانية المتوقعة وأسس تقديرها", "evidence": "احتساب المخصص + سياسة الإدارة", "standard": "ISA 540", "priority": "high"},
+
+    {"category": "inventory", "area": "المخزون", "requirement": "تعليمات وقوائم الجرد الفعلي وحضور المراجع للجرد (الرصيد حوالي {balance})", "evidence": "قوائم جرد + تعليمات جرد", "standard": "ISA 501", "priority": "high"},
+    {"category": "inventory", "area": "المخزون", "requirement": "مطابقة الجرد بالأرصدة الدفترية وتسويات الفروق", "evidence": "كشف مطابقة + قيود التسوية", "standard": "ISA 501", "priority": "high"},
+    {"category": "inventory", "area": "المخزون", "requirement": "كشف تقييم المخزون (التكلفة مقابل صافي القيمة البيعية) وأعمار الأصناف الراكدة", "evidence": "كشف تقييم + أعمار", "standard": "ISA 540", "priority": "medium"},
+
+    {"category": "fixed_assets", "area": "الأصول الثابتة", "requirement": "سجل الأصول الثابتة (التكلفة، الإهلاك، الإضافات، الاستبعادات) مطابق للأستاذ", "evidence": "سجل أصول + أستاذ", "standard": "ISA 500", "priority": "high"},
+    {"category": "fixed_assets", "area": "الأصول الثابتة", "requirement": "مستندات ملكية وفواتير شراء للإضافات الجوهرية خلال الفترة", "evidence": "فواتير + عقود + مستندات ملكية", "standard": "ISA 500", "priority": "medium"},
+    {"category": "fixed_assets", "area": "الأصول الثابتة", "requirement": "احتساب الإهلاك والأعمار الإنتاجية المقدرة وأي مؤشرات اضمحلال", "evidence": "جدول إهلاك + تقييم الإدارة", "standard": "ISA 540", "priority": "medium"},
+
+    {"category": "payables", "area": "الموردون والدائنون", "requirement": "كشف أعمار الموردين مطابق للأستاذ المساعد (الرصيد حوالي {balance}) ومصادقات الأرصدة الجوهرية", "evidence": "كشف أعمار + مصادقات", "standard": "ISA 505", "priority": "high"},
+    {"category": "payables", "area": "الموردون والدائنون", "requirement": "اختبار الالتزامات غير المسجلة: مدفوعات وفواتير ما بعد نهاية الفترة", "evidence": "كشف مدفوعات + فواتير ما بعد الفترة", "standard": "ISA 330", "priority": "high"},
+
+    {"category": "loans", "area": "القروض والتمويل", "requirement": "عقود القروض والتسهيلات وجداول السداد ومصادقات الجهات المقرضة ({accounts})", "evidence": "عقود + جداول سداد + مصادقات", "standard": "ISA 505", "priority": "high"},
+    {"category": "loans", "area": "القروض والتمويل", "requirement": "احتساب الفوائد المستحقة والتحقق من الالتزام بالتعهدات المالية", "evidence": "احتساب فوائد + شهادة التزام", "standard": "ISA 330", "priority": "medium"},
+
+    {"category": "accruals", "area": "المستحقات والمخصصات", "requirement": "تحليل المصروفات المستحقة والمخصصات وسند كل منها", "evidence": "تحليل + مستندات داعمة", "standard": "ISA 540", "priority": "medium"},
+
+    {"category": "equity", "area": "حقوق الملكية", "requirement": "عقد التأسيس وتعديلاته وسجل المساهمين/الشركاء وحركة حقوق الملكية والتوزيعات", "evidence": "عقود + سجل + قرارات توزيع", "standard": "ISA 500", "priority": "medium"},
+
+    {"category": "revenue", "area": "الإيرادات", "requirement": "تحليل الإيرادات حسب النوع/العميل/الشهر ومطابقته مع الفواتير والعقود", "evidence": "تحليل إيرادات + فواتير", "standard": "ISA 520", "priority": "high"},
+    {"category": "revenue", "area": "الإيرادات", "requirement": "عينة فواتير مبيعات وإثباتات التسليم، واختبار القطع قبل وبعد نهاية الفترة", "evidence": "فواتير + إذن تسليم", "standard": "ISA 330", "priority": "high"},
+    {"category": "revenue", "area": "الإيرادات", "requirement": "العقود الجوهرية وشروط إثبات الإيراد (الخصومات والمردودات)", "evidence": "عقود + سياسة إثبات الإيراد", "standard": "ISA 500", "priority": "medium"},
+
+    {"category": "cogs", "area": "تكلفة المبيعات", "requirement": "تحليل تكلفة المبيعات ومطابقتها مع حركة المخزون وهوامش الربح مقارنة بالسنة السابقة", "evidence": "تحليل تكلفة + حركة مخزون", "standard": "ISA 520", "priority": "high"},
+
+    {"category": "payroll", "area": "المرتبات والأجور", "requirement": "كشوف المرتبات الشهرية وعينة ملفات موظفين ومطابقتها مع الأستاذ", "evidence": "كشوف مرتبات + ملفات موظفين", "standard": "ISA 500", "priority": "medium"},
+    {"category": "payroll", "area": "المرتبات والأجور", "requirement": "مطابقة إجمالي المرتبات مع سجلات التأمينات الاجتماعية والضرائب على المرتبات", "evidence": "نماذج التأمينات + إقرارات", "standard": "ISA 330", "priority": "medium"},
+
+    {"category": "rent", "area": "الإيجارات", "requirement": "عقود الإيجار وجداول السداد وأي التزامات إيجارية طويلة الأجل", "evidence": "عقود إيجار", "standard": "ISA 500", "priority": "low"},
+
+    {"category": "interest", "area": "المصروفات التمويلية", "requirement": "تسوية الفوائد المسجلة مع كشوف الجهات المقرضة", "evidence": "كشوف الفوائد", "standard": "ISA 330", "priority": "low"},
+
+    {"category": "tax", "area": "الضرائب", "requirement": "الإقرارات الضريبية وآخر ربط ضريبي وشهادات السداد", "evidence": "إقرارات + ربط + إيصالات", "standard": "ISA 250", "priority": "medium"}
+  ]
+}
